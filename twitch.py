@@ -55,8 +55,8 @@ def main():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("-w", "--width", help="Width of the surface")
-    parser.add_argument("-h", "--height", help="Height of the surface")
+    parser.add_argument("-x", "--width", help="Width of the surface")
+    parser.add_argument("-y", "--height", help="Height of the surface")
     args = parser.parse_args()
     if(args.width is not None):
         W = args.width
